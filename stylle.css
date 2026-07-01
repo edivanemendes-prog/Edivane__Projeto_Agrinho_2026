@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef7ee;
+    color:#222;
+    transition:.4s;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+    background:white;
+    color:#2e7d32;
+    font-weight:bold;
+}
+
+.banner{
+    background:url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80");
+    height:300px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.banner h2{
+    background:rgba(0,0,0,.5);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.conteudo{
+    padding:40px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.card{
+    width:260px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.quiz{
+    text-align:center;
+    padding:40px;
+}
+
+.quiz button{
+    display:block;
+    margin:15px auto;
+    padding:12px;
+    width:250px;
+    cursor:pointer;
+    border:none;
+    background:#43a047;
+    color:white;
+    border-radius:8px;
+}
+
+#resultado{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.comentarios{
+    padding:40px;
+    text-align:center;
+}
+
+textarea{
+    width:80%;
+    max-width:600px;
+    height:120px;
+    padding:15px;
+}
+
+#enviar{
+    display:block;
+    margin:20px auto;
+    padding:12px 30px;
+    border:none;
+    cursor:pointer;
+    background:#2e7d32;
+    color:white;
+    border-radius:8px;
+}
+
+.comentario{
+    width:80%;
+    max-width:600px;
+    background:white;
+    margin:15px auto;
+    padding:15px;
+    border-left:5px solid green;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark .card,
+.dark .comentario{
+    background:#444;
+    color:white;
+}
